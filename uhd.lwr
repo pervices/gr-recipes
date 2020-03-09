@@ -32,9 +32,9 @@ satisfy:
   pacman: libuhd
   port: uhd
   portage: net-wireless/uhd
-source: git+https://github.com/EttusResearch/uhd.git
-gitbranch: UHD-3.15.LTS
-#gitbranch: master
+source: git+https://github.com/pervices/uhd.git
+#gitbranch: UHD-3.15.LTS
+gitbranch: master
 inherit: cmake
 configuredir: host/build
 makedir: host/build
